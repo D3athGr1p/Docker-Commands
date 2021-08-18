@@ -63,3 +63,7 @@ latest = tag
 
 #### Note :-> (create account on hub.docker.com) how to give image name and tag
 > `docker tag imageid usenameDockerRegistory/Newname:tag`
+
+> how to upload on (hub.docker.com) `docker login`
+
+> Enter user credentials and the `docker push repoName:tag`
