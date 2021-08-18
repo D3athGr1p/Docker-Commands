@@ -7,7 +7,7 @@
 
 > Step 4 : `CPY . /app` use your prefred commands to setup container
 
-# Note :-> after upper command give image name and tag
+# Note :-> after above command give image name and tag
 
 > Step 5 : `CMD ["python", "hello.py"]`
 

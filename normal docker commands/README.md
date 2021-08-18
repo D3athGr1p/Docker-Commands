@@ -59,7 +59,7 @@ latest = tag
 
 > convert docker container into image and save it `docker commit (containerID)`
 
-# Note :-> after upper command give image name and tag
+# Note :-> after above command give image name and tag
 
 #### Note :-> (create account on hub.docker.com) how to give image name and tag
 > `docker tag imageid usenameDockerRegistory/Newname:tag`
