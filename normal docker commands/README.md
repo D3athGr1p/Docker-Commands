@@ -47,7 +47,7 @@ latest = tag
 
 > remove image `docker image rm imageid`
 
-> save one or more image tar archive `docker save -o (imageName.tar) imagename `
+> save one or more image tar archive `docker save -o (imageName.tar) imagename`
 
 > to load tar file which we made tared in another pc/backup `docker load -i (imageName.tar)`
 
