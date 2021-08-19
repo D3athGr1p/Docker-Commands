@@ -22,20 +22,20 @@
 
 ```javascript
 DOCKERFILE DIRECTIVE :
-FROM : base image (FROM python:2.7)
-COPY : copy file to host to container    (COPY . /app)(copy every things from . to incontariner /app)
-WORKDIR : change working directory (WORKDIR /app)
-CMD : run command (CMD ["python", "hello.py"])
-RUN : run commands and commit the changes in container
-ADD : copy amyfiles from host to container (USE COPY INSTED)
-ENTRYPOINT : run commands every time container runs
-VOLUME : create mount points for externally-mounted volume or other containers
-USER : create new users inside container (anycommand run will run using this user)
-ARG : define build time variable
-ONBUILD : adds a triger instruction when the image is used as the base for another image
-STOPSIGNAL : sets the system call signal that will be sent to the container to exit
-LABEL : apply key-value metadata to the image, container or daemon.
-EXPOSE : expose port outside the world from this container (EXPOSE 80)
+FROM :          base image (FROM python:2.7)
+COPY :          copy file to host to container    (COPY . /app)(copy every things from . to incontariner /app)
+WORKDIR :       change working directory (WORKDIR /app)
+CMD :           run command (CMD ["python", "hello.py"])
+RUN :           run commands and commit the changes in container
+ADD :           copy amyfiles from host to container (USE COPY INSTED)
+ENTRYPOINT :    run commands every time container runs
+VOLUME :        create mount points for externally-mounted volume or other containers
+USER :          create new users inside container (anycommand run will run using this user)
+ARG :           define build time variable
+ONBUILD :       adds a triger instruction when the image is used as the base for another image
+STOPSIGNAL :    sets the system call signal that will be sent to the container to exit
+LABEL :         apply key-value metadata to the image, container or daemon.
+EXPOSE :        expose port outside the world from this container (EXPOSE 80)
 ```
 
 ```javascript
